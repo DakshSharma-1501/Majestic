@@ -13,44 +13,32 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">M</span>
+            <div className="w-10 h-10 bg-black rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-xl">P</span>
             </div>
-            <span className="text-2xl font-bold text-gray-900">MerchStore</span>
+            <span className="text-2xl font-bold text-gray-900">PlayHere</span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              href="/products"
-              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
+              href="/booking"
+              className="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Products
+              Book Turf
             </Link>
             <Link
-              href="/designs"
-              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
+              href="/sports"
+              className="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Designs
+              Sports
             </Link>
             <Link
-              href="/designers"
-              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
+              href="/locations"
+              className="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Designers
+              Locations
             </Link>
-            <Link
-              href="/categories"
-              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
-            >
-              Categories
-            </Link>
-            <button
-              onClick={() => setIsCategoryModalOpen(true)}
-              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
-            >
-              Customize
-            </button>
           </div>
 
           {/* Right Side Actions */}
@@ -82,7 +70,7 @@ export default function Navbar() {
             {/* Login Button */}
             <Link
               href="/login"
-              className="hidden md:block px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-medium"
+              className="hidden md:block px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium"
             >
               Login
             </Link>

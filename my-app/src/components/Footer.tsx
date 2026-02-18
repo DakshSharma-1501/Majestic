@@ -8,13 +8,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">M</span>
+              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                <span className="text-black font-bold text-xl">P</span>
               </div>
-              <span className="text-2xl font-bold text-white">MerchStore</span>
+              <span className="text-2xl font-bold text-white">PlayHere</span>
             </div>
             <p className="text-gray-400">
-              Create custom merchandise with ease.
+              Your ultimate turf booking destination.
             </p>
           </div>
 
@@ -24,26 +24,26 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/products"
-                  className="hover:text-purple-400 transition-colors"
+                  href="/booking"
+                  className="hover:text-white transition-colors"
                 >
-                  Products
+                  Book Slot
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/designs"
-                  className="hover:text-purple-400 transition-colors"
+                  href="/sports"
+                  className="hover:text-white transition-colors"
                 >
-                  Designs
+                  Sports
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/categories"
-                  className="hover:text-purple-400 transition-colors"
+                  href="/locations"
+                  className="hover:text-white transition-colors"
                 >
-                  Categories
+                  Locations
                 </Link>
               </li>
             </ul>
@@ -97,7 +97,7 @@ export default function Footer() {
 
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-gray-400 text-sm">
-          © 2025 MerchStore. All rights reserved.
+          © 2026 PlayHere. All rights reserved.
         </div>
       </div>
     </footer>
